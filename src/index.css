@@ -1,0 +1,225 @@
+/*
+overwrite the base css
+*/
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.react-calendar, .react-calendar *, .react-calendar *:before, .react-calendar *:after {
+  box-sizing: border-box;
+  color: white !important;
+  background-color: #1a1818;
+  border-radius: 15px !important;
+}
+
+.react-calendar {
+  width: 100% !important;
+  max-width: 100%;
+  background: white;
+  border: 1px solid #a0a096;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 8.1em !important;
+}
+
+.react-calendar__tile {
+  /* border: 1px solid black !important;
+  border-radius: 5px !important; */
+  max-width: 100%;
+  padding: 10px 6.6667px;
+  background: none;
+  text-align: center;
+  line-height: 16px;
+  font: inherit;
+  font-size: 1.833em !important;
+}
+
+.react-calendar__tile--now {
+  /* background: #353527; */
+  border-radius: 50%;
+  background: #dc4600 !important;
+}
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font: inherit;
+  font-size: 1.75em !important; 
+  font-weight: bold;
+}
+.react-calendar__navigation {
+  border-radius: 15px 15px 0px 0px !important;
+  display: flex;
+  height: 44px;
+  margin-bottom: 0em !important;
+}
+.react-calendar__navigation button {
+  font-size: 1.5rem !important;
+  min-width: 44px;
+  background: none;
+}
+
+.react-calendar__tile--active {
+  border-radius: 50%;
+  background: #353527 !important;
+  color: white;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #000000 !important;
+  background-color: rgb(32, 32, 28) !important;
+}
+
+.react-calendar__viewContainer{
+  border-radius: 0px 0px 15px 15px !important;
+}
+
+.MuiModal-root .css-79ws1d-MuiModal-root{
+  border-radius: 15px !important;
+}
+
+
+.css-apvgl {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-shadow: 0px 11px 15px -7px rgba(0,0,0,0.2), 0px 24px 38px 3px rgba(0,0,0,0.14), 0px 9px 46px 8px rgba(0,0,0,0.12);
+  padding-top: 15px  !important;
+  padding-left: 15px  !important;
+  padding-right: 15px  !important;
+  padding-bottom: 16px  !important;
+  height: 810px;
+}
+
+
+.container {
+  display: flex;            /* Use flexbox layout */
+  align-items: center;      /* Vertically center align items */
+}
+
+.text {
+  margin-right: 10px;       /* Add some margin for spacing between text and hr */
+  color: white;
+
+  /* padding-left:6% */
+}
+
+.divider {
+  flex-grow: 1;             /* This allows the <hr/> to take up remaining space */
+  height: 1px;              /* Sets the height of the <hr/> */
+  border: none;             /* Removes the default border */
+  background-color: white;  /* You can change this to your desired color */
+}
+
+.day-schedule {
+  border: 1px solid black;
+  height: 680px;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.task-creator {
+  border: 1px solid black;
+  height: 680px;
+  overflow: auto; 
+  border-radius: 10px;
+}
+
+.d-flex-row-space-between {
+  display: flex; 
+  flex-direction: row;
+  justify-content:space-between; 
+}
+
+
+.width-100 {
+  width: 100%;
+}
+
+.width-64 {
+  width: 64%;
+}
+
+.width-35 {
+  width: 35%;
+}
+
+.width-0 {
+  width: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.task {
+  z-index: 10;
+  color:white;
+  background-color:blue;
+  height:35px;
+  width: 350px;
+  border-radius:5px;
+  cursor:pointer;
+  transition: 0.5s ease; /* Adding the transition effect */
+}
+
+
+.task:hover {
+  z-index: 100;
+  color:white;
+  background-color:blue;
+  height:200px;
+  width: 500px;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+
+
+abbr[title] {
+  text-decoration: unset;
+}
